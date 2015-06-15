@@ -814,7 +814,7 @@
 							options.date = options.date.valueOf();
 						}
 						if (shiftTo) {
-							options.current = new Date (options.mode != 'single' ? options.date[0] : options.date);
+							options.current = new Date (options.mode != 'single' ? options.date[1] : options.date);
 						}
 						fill(cal.get(0));
 					}
